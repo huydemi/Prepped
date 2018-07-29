@@ -1,24 +1,15 @@
-# MonkeyPinch
+# Prepped
 
-In this tutorial, you’ll learn:
+In this iOS 9 storyboards tutorial, you’ll learn how to use storyboard references and supplementary views. 
 
-- add gesture recognizers into your app
-	-  within the Storyboard editor in Xcode
-	-  and programatically.
-- dragging
-- pinching
-- rotating
+You’ll be updating an app designed to help you with all those listable moments in life, whether it’s grocery shopping, packing your luggage for vacation, or a survival checklist for the impending zombie apocalypse! :]
 
-You’ll also try out:
+![screenshot](https://koenig-media.raywenderlich.com/uploads/2015/09/12-ItemsRefactored.png)
 
-- Adding deceleration for movement
-- Setting dependencies between gesture recognizers
-- Creating a custom UIGestureRecognizer so you can tickle the monkey!
-
-![screenshot](https://koenig-media.raywenderlich.com/uploads/2017/07/Screenshot-2017-07-17-17.43.15.png)
+![screenshot](https://koenig-media.raywenderlich.com/uploads/2015/09/25-ExpandedNotes2.png)
 
 ---
 
 Source:
 
-- [UIGestureRecognizer Tutorial: Getting Started](https://www.raywenderlich.com/162745/uigesturerecognizer-tutorial-getting-started)
+- [iOS 9 Storyboards Tutorial: What’s New in Storyboards?](https://www.raywenderlich.com/115697/ios-9-storyboards-tutorial-whats-new-in-storyboards)
