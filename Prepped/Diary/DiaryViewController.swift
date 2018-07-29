@@ -167,6 +167,6 @@ class DiaryYearTableViewHeader: UITableViewHeaderFooterView {
     yearLabel.centerYAnchor.constraint(equalTo: contentView.centerYAnchor).isActive = true
     yearLabel.leadingAnchor.constraint(equalTo: contentView.leadingAnchor, constant: 12.0).isActive = true
     
-    yearLabel.font = UIFont.systemFont(ofSize: 17.0, weight: UIFontWeightLight)
+    yearLabel.font = UIFont.systemFont(ofSize: 17.0, weight: UIFont.Weight.light)
   }
 }

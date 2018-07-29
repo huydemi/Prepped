@@ -147,7 +147,7 @@
 					825E946C1B38DC9C007F9483 = {
 						CreatedOnToolsVersion = 7.0;
 						DevelopmentTeam = AA388QFS75;
-						LastSwiftMigration = 0830;
+						LastSwiftMigration = 0940;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -318,7 +318,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.huydang.Prepped;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -334,7 +335,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.huydang.Prepped;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;

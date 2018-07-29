@@ -50,7 +50,7 @@ class ChecklistItemTableViewCell: UITableViewCell {
     checkBox.selected = highlighted
   }
   
-  func checkMarkTapped(_ gesture: UITapGestureRecognizer) {
+  @objc func checkMarkTapped(_ gesture: UITapGestureRecognizer) {
     let checked = !checkBox.checked
     
     checkBox.checked = checked

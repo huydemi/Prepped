@@ -44,8 +44,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     // Navigation Bar
     let navBarAppearance = UINavigationBar.appearance()
     navBarAppearance.isTranslucent = true
-    navBarAppearance.titleTextAttributes = [NSForegroundColorAttributeName : UIColor.white,
-      NSFontAttributeName : navBarFont]
+    navBarAppearance.titleTextAttributes = [NSAttributedStringKey.foregroundColor : UIColor.white,
+      NSAttributedStringKey.font : navBarFont]
     
     let imageSize = CGSize(width: 1, height: 1)
     let backgroundImage = UIImage.imageWithColor(barColor, size: imageSize)
@@ -57,8 +57,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     // Tab Bar
     UITabBar.appearance().tintColor = barColor
-    UITabBarItem.appearance().setTitleTextAttributes([ NSForegroundColorAttributeName: barColor ], for: UIControlState())
-    UITabBarItem.appearance().setTitleTextAttributes([ NSForegroundColorAttributeName: barColor ], for: UIControlState.selected)
+    UITabBarItem.appearance().setTitleTextAttributes([ NSAttributedStringKey.foregroundColor: barColor ], for: UIControlState())
+    UITabBarItem.appearance().setTitleTextAttributes([ NSAttributedStringKey.foregroundColor: barColor ], for: UIControlState.selected)
     
     // Table View separator
     let separatorColor = UIColor(red: 227/255, green: 227/255, blue: 227/255, alpha: 1.0)
